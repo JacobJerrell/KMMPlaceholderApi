@@ -1,0 +1,9 @@
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/Todo.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/Comment.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/androidMain/kotlin/com/bocaj/kmmplaceholder/shared/Platform.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/User.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/Greeting.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/Photo.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/Album.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/Platform.kt
+/Users/jay-kotlin/Projects/KMMPlaceholder/shared/src/commonMain/kotlin/com/bocaj/kmmplaceholder/shared/model/Post.kt
