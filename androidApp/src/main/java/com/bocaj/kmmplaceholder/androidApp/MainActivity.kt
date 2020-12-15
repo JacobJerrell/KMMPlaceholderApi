@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.*
@@ -52,7 +51,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         viewModel.loadUsers()
-        val tv: TextView = findViewById(R.id.text_view)
         val rv: RecyclerView = findViewById(R.id.rv_user_list)
 
         rv.bind2(viewModel.userList.value ?: listOf())
@@ -63,7 +61,6 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.userList.observe(this) { users ->
             rv.update2(users)
-//            tv.text = users.joinToString("\n") { it.name }
         }
 
     }

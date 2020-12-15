@@ -27,22 +27,23 @@
 18        android:extractNativeLibs="false"
 19        android:supportsRtl="true"
 19-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:9:13-39
-20        android:theme="@style/AppTheme" >
-20-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:10:13-44
-21        <activity android:name="com.bocaj.kmmplaceholder.androidApp.MainActivity" >
-21-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:11:9-16:20
-21-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:11:19-47
-22            <intent-filter>
-22-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:12:13-15:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:13:17-68
-23-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:13:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:14:17-76
-25-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:14:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:10:13-44
+22        <activity android:name="com.bocaj.kmmplaceholder.androidApp.MainActivity" >
+22-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:11:9-16:20
+22-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:11:19-47
+23            <intent-filter>
+23-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:12:13-15:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:13:17-68
+24-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:13:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:14:17-76
+26-->/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/AndroidManifest.xml:14:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

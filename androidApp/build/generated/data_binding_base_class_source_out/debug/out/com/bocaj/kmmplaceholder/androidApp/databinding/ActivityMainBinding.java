@@ -4,7 +4,6 @@ package com.bocaj.kmmplaceholder.androidApp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -25,16 +24,11 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rvUserList;
 
-  @NonNull
-  public final TextView textView;
-
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout mainView, @NonNull RecyclerView rvUserList,
-      @NonNull TextView textView) {
+      @NonNull ConstraintLayout mainView, @NonNull RecyclerView rvUserList) {
     this.rootView = rootView;
     this.mainView = mainView;
     this.rvUserList = rvUserList;
-    this.textView = textView;
   }
 
   @Override
@@ -72,13 +66,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.text_view;
-      TextView textView = rootView.findViewById(id);
-      if (textView == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, mainView, rvUserList, textView);
+      return new ActivityMainBinding((ConstraintLayout) rootView, mainView, rvUserList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

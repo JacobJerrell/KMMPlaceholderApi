@@ -1922,7 +1922,6 @@ id textStart
 id text_input_end_icon
 id text_input_start_icon
 id text_item
-id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
