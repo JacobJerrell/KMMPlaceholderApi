@@ -1,4 +1,6 @@
 buildscript {
+    val kotlin_version = "1.4.20"
+
     repositories {
         gradlePluginPortal()
         jcenter()
@@ -6,13 +8,16 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10")
-        classpath("com.android.tools.build:gradle:4.0.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+        classpath("com.android.tools.build:gradle:4.2.0-beta01")
     }
 }
 
+
 allprojects {
     repositories {
+        maven("https://dl.bintray.com/kotlin/kotlinx")
+        maven("https://dl.bintray.com/kotlin/ktor")
         google()
         jcenter()
         mavenCentral()

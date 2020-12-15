@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/build/intermediates/res/merged/debug/layout_single_text_item_layout.xml.flat",
+        "source": "/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/res/layout/single_text_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/jay-kotlin/Projects/KMMPlaceholder/androidApp/src/main/res/layout/activity_main.xml"
+    }
+]

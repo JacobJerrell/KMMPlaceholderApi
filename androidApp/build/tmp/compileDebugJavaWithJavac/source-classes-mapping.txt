@@ -1,0 +1,6 @@
+com/bocaj/kmmplaceholder/androidApp/BuildConfig.java
+ com.bocaj.kmmplaceholder.androidApp.BuildConfig
+com/bocaj/kmmplaceholder/androidApp/databinding/SingleTextItemLayoutBinding.java
+ com.bocaj.kmmplaceholder.androidApp.databinding.SingleTextItemLayoutBinding
+com/bocaj/kmmplaceholder/androidApp/databinding/ActivityMainBinding.java
+ com.bocaj.kmmplaceholder.androidApp.databinding.ActivityMainBinding

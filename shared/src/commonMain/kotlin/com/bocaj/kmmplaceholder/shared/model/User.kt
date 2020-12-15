@@ -1,6 +1,8 @@
-package com.bocaj.kmmplaceholderapi.sharedPlaceholderApi.model
+package com.bocaj.kmmplaceholder.shared.model
 
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class User(
         val id: Int,
         val name: String,
@@ -11,6 +13,7 @@ data class User(
         val website: String,
         val company: Company
 ) {
+    @Serializable
     data class Address(
             val street: String,
             val suite: String,
@@ -18,12 +21,14 @@ data class User(
             val zipcode: String,
             val geo: Geo,
     ) {
+        @Serializable
         data class Geo(
-                val lat: Long,
-                val lng: Long
+                val lat: Double,
+                val lng: Double
         )
     }
 
+    @Serializable
     data class Company(
             val name: String,
             val catchPhrase: String,
