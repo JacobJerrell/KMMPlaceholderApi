@@ -1,5 +1,6 @@
 buildscript {
     val kotlin_version = "1.4.20"
+    val gradle_version = "4.2.0-beta02"
 
     repositories {
         gradlePluginPortal()
@@ -9,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
-        classpath("com.android.tools.build:gradle:4.2.0-beta01")
+        classpath("com.android.tools.build:gradle:${gradle_version}")
     }
 }
 

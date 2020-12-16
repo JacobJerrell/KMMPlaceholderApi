@@ -1,5 +1,8 @@
 package com.bocaj.kmmplaceholderapi.sharedPlaceholderApi.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Comment(
         val postId: Int,
         val id: Int,
