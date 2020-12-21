@@ -1,2 +1,0 @@
-com/bocaj/kmmplaceholder/shared/BuildConfig.java
- com.bocaj.kmmplaceholder.shared.BuildConfig
