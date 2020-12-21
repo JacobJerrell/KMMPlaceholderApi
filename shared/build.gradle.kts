@@ -36,7 +36,6 @@ kotlin {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.1")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9-native-mt")
 
-
                 /**
                  * Ktor
                  */
@@ -45,7 +44,6 @@ kotlin {
                 implementation("io.ktor:ktor-client-serialization:$ktor_version")
 
                 implementation("io.ktor:ktor-client-logging:1.4.2")
-
             }
         }
         val commonTest by getting {

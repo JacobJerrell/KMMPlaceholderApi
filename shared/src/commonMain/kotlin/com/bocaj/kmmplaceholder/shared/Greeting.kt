@@ -1,5 +1,6 @@
 package com.bocaj.kmmplaceholder.shared
 
+import com.bocaj.kmmplaceholder.shared.model.ApiResponse
 import com.bocaj.kmmplaceholder.shared.model.User
 import io.ktor.client.*
 import io.ktor.client.features.json.*
@@ -18,6 +19,10 @@ object SharedApi {
             logger = Logger.DEFAULT
             level = LogLevel.ALL
         }
+    }
+
+    fun liveGetUsers(): LiveData<ApiResponse<List<User>> = liveData {
+
     }
 
     @KtorExperimentalAPI
