@@ -1,5 +1,7 @@
 # KMM Placeholder
 
+[01/27/2020] - Update: Probably abandoning this mostly. It's great to use as a template to get a quick KMM/Ktor quickstart. I used this answer to refactor/rename copies of the project: https://stackoverflow.com/a/29092698 
+
 [Kotlin Multiplatform Mobile (KMM)](https://kotlinlang.org/docs/mobile/home.html) [PlaceholderAPI](https://jsonplaceholder.typicode.com/)
 
 ## Technologies
